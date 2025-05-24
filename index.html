@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MeuPortfólio</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="menu-icon" id="menuIcon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Olá, eu sou <span class="highlight">Lucas</span></h1>
+            <p>Desenvolvedor Front-end | Criando experiências digitais incríveis</p>
+            <a href="#projects" class="btn">Ver Projetos</a>
+        </div>
+        <img src="img/Perfil.jpg" alt="Foto de perfil" class="hero-img">
+    </section>
+
+    <section class="about" id="about">
+        <h2>Sobre Mim</h2>
+        <p>
+            Sou apaixonado por tecnologia e desenvolvimento web. Tenho experiência em HTML, CSS, JavaScript e frameworks modernos. Busco sempre criar soluções criativas e eficientes.
+        </p>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Projetos</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <i class="fas fa-laptop-code project-icon"></i>
+                <h3>Projeto 1</h3>
+                <p>Descrição breve do projeto 1.</p>
+            </div>
+            <div class="project-card">
+                <i class="fas fa-mobile-alt project-icon"></i>
+                <h3>Projeto 2</h3>
+                <p>Descrição breve do projeto 2.</p>
+            </div>
+            <div class="project-card">
+                <i class="fas fa-database project-icon"></i>
+                <h3>Projeto 3</h3>
+                <p>Descrição breve do projeto 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contato</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lucas Design. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
